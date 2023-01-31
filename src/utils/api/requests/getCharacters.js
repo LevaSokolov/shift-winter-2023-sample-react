@@ -1,3 +1,3 @@
-import { api } from '../instance';
+// import { api } from '../instance';
 
-export const getCharacters = ({ options }) => api.get('character', { ...(options && options) });
+// export const getCharacters = ({ options }) => api.get('character', { ...(options && options) });

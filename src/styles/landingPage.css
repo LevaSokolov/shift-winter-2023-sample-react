@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  src: url('../assets/fonts/Poppins/Poppins-ExtraLight.ttf');
+}
+
+body {
+  font-family: Poppins;
+  width: 100%;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  max-width: 1440px;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 75px;
+  background: rgba(21, 21, 21, 0.95);
+  border: #000000 solid 1px;
+}
+
+.rectrangle-top {
+  width: 100%;
+  max-width: 1440px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 125, 0, 0.95);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.background_image {
+  width: 100%;
+  max-width: 1440px;
+  height: 710px;
+  background: url(/src/assets/gamePreview.png),
+    linear-gradient(270.68deg, rgba(255, 255, 255, 0) 0.5%, #151515 101.54%);
+  mix-blend-mode: multiply;
+}
+
+.container {
+  margin: 230px 182px;
+  width: 380px;
+  height: 155px;
+}
+
+.title-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  width: 380px;
+  height: 84px;
+}
+
+.title {
+  width: 394px;
+  height: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: #000000 1px 1px 1px;
+}
+
+.caption {
+  width: 394px;
+  height: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-shadow: #000000 1px 1px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 380px;
+  height: 68px;
+}
+
+.button {
+  width: 199px;
+  height: 30px;
+  border: 1.5px solid #ffffff;
+  border-radius: 66px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: #000000 1px 1px 1px;
+}
+
+.submenu {
+  margin-right: 173px;
+  display: flex;
+  justify-content: space-between;
+  width: 198px;
+  height: 23px;
+}
+
+.play {
+  width: 52px;
+  height: 23px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.about {
+  width: 97px;
+  height: 23px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.logo {
+  margin-left: 162px;
+  width: 114px;
+  height: 35px;
+  background: url(/src/assets/logo.png);
+  background-size: cover;
+}
+
+.rules-container {
+  width: 100%;
+  max-width: 1440px;
+  height: 1400px;
+  background: #e0e0e0;
+  border: #000000 solid 1px;
+}
+
+.rules-title {
+  margin: 89px 189px 40px;
+  width: 240px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.rules-text {
+  margin: 10px 186px;
+  height: 984px;
+  width: 100%;
+  max-width: 1116px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1482px;
+  height: 227px;
+  background: #151515;
+}
+
+.footer_container {
+  justify-content: space-between;
+  display: flex;
+  margin: 41px 162px;
+  height: 35px;
+}
+
+.footer-logo {
+  width: 114px;
+  height: 35px;
+  background: url(/src/assets/logo.png);
+  background-size: cover;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 102px;
+  height: 35px;
+}
+
+.facebook {
+  height: 27px;
+  width: 27px;
+  background: url(/src/assets/facebook.png);
+}
+
+.instagram {
+  height: 27px;
+  width: 27px;
+  background: url(/src/assets/insta.png);
+}
+
+.in {
+  height: 27px;
+  width: 27px;
+  background: url(/src/assets/in.png);
+}
