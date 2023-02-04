@@ -1,0 +1,64 @@
+.gameplay-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1060px;
+  height: 350px;
+  margin-left: 190px;
+  border: red solid 1px;
+}
+
+.gameplay-button {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 349px;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+}
+
+.button-sign {
+  width: 117px;
+  height: 24px;
+  border: rgb(49, 0, 128) solid 1px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.46);
+}
+
+.button-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 349px;
+  width: 194px;
+  border: green solid 1px;
+}
+
+.button-rock {
+  width: 168px;
+  height: 220px;
+  margin-top: 50px;
+  background: url(/src/assets/rock.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.button-scissors {
+  width: 163px;
+  height: 266px;
+  background: url(/src/assets/scissors.png);
+  background-size: cover;
+}
+
+.button-paper {
+  width: 163px;
+  height: 266px;
+  background: url(/src/assets/paper.png);
+  background-size: cover;
+}

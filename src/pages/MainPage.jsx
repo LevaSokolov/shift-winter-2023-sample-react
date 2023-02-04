@@ -1,17 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import RulesText from '../components/RulesText';
-import '../styles/pagesLayout.css';
+import MainGameplay from './MainGameplay';
 
-function LandingPage() {
+function MainPage() {
   return (
     <div className='main'>
       <header className='header'>
         <div className='logo'></div>
         <div className='submenu'>
-          <Link to='MainPage'>
-            <div className='play'>Играть</div>
-          </Link>
+          <div className='play'>Играть</div>
           <div className='about'>Об игре</div>
         </div>
       </header>
@@ -23,16 +20,13 @@ function LandingPage() {
             <div className='caption'>В борьбе с искусственным интеллектом</div>
           </div>
           <div className='button-container'>
-            <Link to='MainPage'>
-              <div className='button'>Играть сейчас</div>
-            </Link>
+            <div className='button'>Играть сейчас</div>
             <div className='button'>Читать правила</div>
           </div>
         </div>
       </div>
       <div className='body-container'>
-        <div className='body-title'>Правила игры</div>
-        <RulesText />
+        <MainGameplay />
       </div>
       <footer className='footer'>
         <div className='footer_container'>
@@ -51,4 +45,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default MainPage;

@@ -51,7 +51,7 @@ body {
 .background_image {
   width: 100%;
   max-width: 1440px;
-  height: 710px;
+  height: 640px;
   background: url(/src/assets/gamePreview.png),
     linear-gradient(270.68deg, rgba(255, 255, 255, 0) 0.5%, #151515 101.54%);
   mix-blend-mode: multiply;
@@ -157,7 +157,7 @@ body {
   background-size: cover;
 }
 
-.rules-container {
+.body-container {
   width: 100%;
   max-width: 1440px;
   height: 1400px;
@@ -165,9 +165,9 @@ body {
   border: #000000 solid 1px;
 }
 
-.rules-title {
-  margin: 89px 189px 40px;
-  width: 240px;
+.body-title {
+  margin: 70px 189px 40px;
+  width: 340px;
   height: 24px;
   font-family: 'Poppins';
   font-style: normal;
@@ -237,4 +237,15 @@ body {
   height: 27px;
   width: 27px;
   background: url(/src/assets/in.png);
+}
+
+.copyright {
+  margin: 112px 473px;
+  width: 523px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bdbdbd;
 }
