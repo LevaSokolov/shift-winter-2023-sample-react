@@ -1,33 +1,20 @@
 import React from 'react';
+import GameplayButtons from '../components/GameplayButtons';
+import Preloader from '../components/Preloader';
 import '../styles/mainGameplay.css';
 
 function MainGameplay() {
   return (
     <div>
       <div className='body-title'>Ваш выбор:</div>
-      <div className='gameplay-buttons-container'>
-        <div className='gameplay-button'>
-          <div className='button-inner-container '>
-            <div className='button-rock'></div>
-            <div className='button-sign'>камень</div>
-          </div>
-        </div>
-        <div className='gameplay-button'>
-          <div className='button-inner-container '>
-            <div className='button-scissors'></div>
-            <div className='button-sign'>ножницы</div>
-          </div>
-        </div>
-        <div className='gameplay-button'>
-          <div className='button-inner-container '>
-            <div className='button-paper'></div>
-            <div className='button-sign'>бумага</div>
-          </div>
-        </div>
-      </div>
-      <div className='body-title'>Выбор противника:</div>
+      <GameplayButtons />
+      <Preloader />
+      {/* <div className='body-title'>Выбор противника:</div> */}
+      {/* <GameplayButtons /> */}
     </div>
   );
 }
 
 export default MainGameplay;
+
+// {isLoading && <Preloader />}
