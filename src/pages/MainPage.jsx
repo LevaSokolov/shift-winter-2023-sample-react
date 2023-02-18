@@ -6,7 +6,9 @@ function MainPage() {
   return (
     <div className='main'>
       <header className='header'>
-        <div className='logo'></div>
+        <Link to='/'>
+          <div className='logo'></div>
+        </Link>
         <div className='submenu'>
           <div className='play'>Играть</div>
           <div className='about'>Об игре</div>

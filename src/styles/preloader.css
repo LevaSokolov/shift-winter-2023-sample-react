@@ -1,6 +1,37 @@
 .loader-container {
-  margin: 20px 400px;
-  width: 600px;
-  height: 400px;
-  border: red solid 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 558px;
+  width: 320px;
+  height: 200px;
+  border: black solid;
 }
+
+.circle {
+  height: 80px;
+  width: 80px;
+  background: url(/src/assets/circle.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  animation: Poping-circle 0.6s linear infinite alternate 0s forwards;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background: url(/src/assets/square.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+@keyframes Poping-circle {
+  from {
+    margin-top: -40px;
+  }
+  to {
+    margin-top: 40px;
+  }
+}
+
+@keyframes
