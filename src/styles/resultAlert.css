@@ -1,0 +1,57 @@
+.result-container {
+  margin-left: 200px;
+  width: 1040px;
+  height: 270px;
+}
+
+.win-logo {
+  margin-top: 60px;
+  width: 256px;
+  height: 267px;
+  background: url(/src/assets/win.png);
+}
+
+.fail-logo {
+  margin-top: 60px;
+  width: 281px;
+  height: 286px;
+  background: url(/src/assets/fail.png);
+}
+
+.result-title {
+  margin: -200px 360px;
+  width: 583px;
+  height: 40px;
+  font-size: 48px;
+  user-select: none;
+}
+
+.result-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 248px 360px;
+  height: 68px;
+  width: 672px;
+}
+
+.play-again-button {
+  width: 315px;
+  height: 68px;
+  background: #f67a03;
+  border: 1.5px solid #f67902;
+  border-radius: 66px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.watch-stat-button {
+  width: 315px;
+  height: 68px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  border: 1.5px solid #f67902;
+  color: #f67a03;
+  border-radius: 66px;
+  cursor: pointer;
+}
